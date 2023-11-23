@@ -1,6 +1,6 @@
 running
 setUp
 	super setUp.
-	GameInstance := Game2048 initWithCustomDimensions: 4
+	self gameInstance: (Game2048 initWithCustomDimensions: 4).
 	 
 	
