@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"GameInstance"
+		"gameInstance"
 	],
 	"name" : "Core2048Test",
 	"type" : "normal"
