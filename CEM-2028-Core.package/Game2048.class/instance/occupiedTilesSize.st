@@ -1,0 +1,3 @@
+accessing
+occupiedTilesSize
+	^ occupiedTiles size
