@@ -2,18 +2,13 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "CEM-2028-Core",
-	"classinstvars" : [
-		"grid"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"linesCount",
-		"columnsCount",
-		"grid",
-		"occupiedTiles",
-		"emptyTiles"
+		"position",
+		"withValue"
 	],
-	"name" : "Game2048",
+	"name" : "Game2048Tile",
 	"type" : "normal"
 }
