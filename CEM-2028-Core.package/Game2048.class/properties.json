@@ -12,7 +12,9 @@
 		"columnsCount",
 		"grid",
 		"occupiedTiles",
-		"emptyTiles"
+		"emptyTiles",
+		"isGameFinished",
+		"isGridFull"
 	],
 	"name" : "Game2048",
 	"type" : "normal"

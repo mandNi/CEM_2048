@@ -6,12 +6,11 @@ initWithCustomDimensions: anInteger
 	self  columnsCount: anInteger.
 	occupiedTiles := OrderedCollection new.
 	emptyTiles := OrderedCollection new.
-	
 	1 to: anInteger do: [ :row |
         1 to: anInteger do: [ :col |
-            | point |
-            point := row @ col.
-            emptyTiles add: point.
+				| point |.
+				point := row @ col.
+				emptyTiles add: point.
         ]
     ].
 	

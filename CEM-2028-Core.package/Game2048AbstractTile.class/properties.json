@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "NizarMandour 12/7/2023 21:53",
+	"super" : "Object",
+	"category" : "CEM-2028-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"position",
+		"withValue",
+		"gameInstance",
+		"hasNotMovedOrMerged"
+	],
+	"name" : "Game2048AbstractTile",
+	"type" : "normal"
+}
