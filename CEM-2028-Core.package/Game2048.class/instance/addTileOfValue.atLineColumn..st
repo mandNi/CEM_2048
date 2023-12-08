@@ -7,4 +7,4 @@ addTileOfValue: anInteger atLineColumn: aPoint
 	tile gameInstance: self.
 	occupiedTiles add: tile.
 	
-	emptyTiles remove: (tile position) ifAbsent: [].
+	emptyTiles remove: (emptyTiles detect: [:emptyTile | emptyTile position = aPoint]).
