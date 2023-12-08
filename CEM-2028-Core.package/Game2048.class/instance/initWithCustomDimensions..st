@@ -14,5 +14,16 @@ initWithCustomDimensions: anInteger
 				emptyTiles add: emptyTile.
         ]
     ].
+
+	"Initialiser les murs"
+	0 to: 5 do: [:row |
+		| point wallTile |.
+		point := row @ 0.
+		wallTile := Game2048WallTile new position: point.
+		
+		 ].
+	
+	
+		
 	
 	^ self 
