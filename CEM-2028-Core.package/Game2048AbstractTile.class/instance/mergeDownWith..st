@@ -1,3 +1,3 @@
 operations
-mergeWith: aTile
+mergeDownWith: aTile
 	aTile position: self position.

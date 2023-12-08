@@ -8,9 +8,10 @@ initWithCustomDimensions: anInteger
 	emptyTiles := OrderedCollection new.
 	1 to: anInteger do: [ :row |
         1 to: anInteger do: [ :col |
-				| point |.
+				| point emptyTile|.
 				point := row @ col.
-				emptyTiles add: point.
+				emptyTile := (Game2048EmptyTile new position: point).
+				emptyTiles add: emptyTile.
         ]
     ].
 	

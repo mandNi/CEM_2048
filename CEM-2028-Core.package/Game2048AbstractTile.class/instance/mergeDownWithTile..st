@@ -1,3 +1,3 @@
 as yet unclassified
 mergeDownWithTile: aTile
-	^ aTile mergeWith: self
+	^ aTile mergeDownWith: self

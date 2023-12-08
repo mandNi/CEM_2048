@@ -1,2 +1,0 @@
-as yet unclassified
-moveTileDownAndMergeWith: tileToBeMovedDown tileToBeMergedWith: tileToBeMergedWith
