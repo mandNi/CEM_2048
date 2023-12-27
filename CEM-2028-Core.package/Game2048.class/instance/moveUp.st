@@ -1,6 +1,6 @@
 actions
 moveUp
-	|sortedTiles nextRandomTile|
+	|sortedTiles nextRandomTile|.
 	sortedTiles := occupiedTiles asSortedCollection: [:a :b | a position y < b position y].
 	
 	sortedTiles do:[:tile | tile moveUp].
