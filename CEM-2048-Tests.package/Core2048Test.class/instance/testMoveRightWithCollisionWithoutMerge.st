@@ -4,7 +4,7 @@ testMoveRightWithCollisionWithoutMerge
 	gameInstance addTileOfValue: 2 atLineColumn: 1 @ 1.
 	gameInstance addTileOfValue: 4 atLineColumn: 2 @ 1.
 
-	gameInstance moveUp.
+	gameInstance moveRight.
 
 	self assert: gameInstance occupiedTilesSize equals: 3.
 	self assert: gameInstance emptyTilesSize equals: 13.
