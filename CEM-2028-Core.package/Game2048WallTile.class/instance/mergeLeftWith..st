@@ -1,0 +1,3 @@
+operations
+mergeLeftWith: aTile
+	^ aTile
