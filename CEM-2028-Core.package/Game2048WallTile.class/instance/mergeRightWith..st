@@ -1,3 +1,0 @@
-operations
-mergeRightWith: aTile
-	^ aTile
