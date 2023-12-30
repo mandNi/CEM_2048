@@ -1,3 +1,3 @@
 accessing
 isGameFinished: aBoolean
-	isGameFinished := aBoolean
+	isGameFinished := aBoolean.

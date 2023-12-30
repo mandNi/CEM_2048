@@ -5,6 +5,8 @@ moveDown
 	
 	sortedTiles do:[:tile | tile moveDown ].
 	
+	self checkGameState ifTrue:[^self].
+	
 	 nextRandomTile := Game2048Tile new.
 	 nextRandomTile withValue: (Random new next < 0.9 ifTrue: [2] ifFalse: [4]).
 	 nextRandomTile position: emptyTiles atRandom position.

@@ -15,7 +15,8 @@
 		"emptyTiles",
 		"isGameFinished",
 		"isGridFull",
-		"wallTiles"
+		"wallTiles",
+		"hasWon"
 	],
 	"name" : "Game2048",
 	"type" : "normal"

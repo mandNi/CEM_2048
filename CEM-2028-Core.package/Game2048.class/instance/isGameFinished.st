@@ -1,3 +1,3 @@
 testing
 isGameFinished
-	^false
+	^ isGameFinished.
