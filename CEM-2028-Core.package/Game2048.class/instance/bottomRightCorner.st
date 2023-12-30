@@ -1,3 +1,3 @@
 geometry
-bottomRighttCorner
+bottomRightCorner
 	^ (self columnsCount) @ (self columnsCount).

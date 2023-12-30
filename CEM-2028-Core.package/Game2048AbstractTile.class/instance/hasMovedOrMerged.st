@@ -1,3 +1,0 @@
-testing
-hasMovedOrMerged
-	^false
