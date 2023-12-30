@@ -22,7 +22,7 @@ N'ayons pas réussi à lier la partie UI (Bloc et Myg) avec la conception de not
 
 Nous avons modélisé les blocs ( Tile ) avec une classe AbstractTile qui contient les comportements et attributs en commun avec les trois types de bloc : EmptyTile, wallTile et Tile.
 
-Grâce au polymorphisme, à l'héritage et au double dispatch, un envoi de message (moveLeft, moveRight, moveUp ou moveDown) à une Tile, fais en sorte de choisir son voisin et envoie le message : 
+Grâce au polymorphisme, à l'héritage et au double dispatch, un envoi de message (moveLeft, moveRight, moveUp ou moveDown) à une Tile, fait en sorte de choisir son voisin et envoie le message : 
 
 AbstractTile >>  mergeWith: voisin andGo: aDirection.
 
