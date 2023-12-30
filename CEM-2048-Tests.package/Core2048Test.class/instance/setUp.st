@@ -1,6 +1,6 @@
 running
 setUp
 	super setUp.
-	self gameInstance: (Game2048 initWithCustomDimensions: 4).
+	self gameInstance: (Game2048 initWithCustomDimensions: 6).
 	 
 	
