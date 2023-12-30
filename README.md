@@ -24,7 +24,7 @@ Nous avons modélisé les blocs ( Tile ) avec une classe AbstractTile qui contie
 
 Grâce au polymorphisme, à l'héritage et au double dispatch, un envoi de message (moveLeft, moveRight, moveUp ou moveDown) à une Tile, fait en sorte de choisir son voisin et envoie le message : 
 
-AbstractTile >>  mergeWith: voisin andGo: aDirection.
+mergeWith: voisin andGo: aDirection.
 
 Le résultat de ce message est de demander au voisin de mergeWith la Tuile actuelle (self), d'où le double dispatch.
 
