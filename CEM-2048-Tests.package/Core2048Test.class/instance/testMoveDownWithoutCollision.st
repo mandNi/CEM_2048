@@ -8,8 +8,8 @@ testMoveDownWithoutCollision
 	self assert: gameInstance occupiedTilesSize equals: 2.
 	self assert: gameInstance emptyTilesSize equals: self gameInstance gridSize - self gameInstance occupiedTilesSize.
 	"checking that the pos 1@4 has been updated in both occupied and empty tiles collections"
-	self assert: ((gameInstance occupiedTiles collect: [:tile | tile position]) includes: 1@4).
-	self deny: ((gameInstance emptyTiles collect: [:tile | tile position]) includes: 1@4).
+	self assert: ((gameInstance occupiedTiles collect: [:tile | tile position]) includes: self gameInstance bottomLeftCorner).
+	self deny: ((gameInstance emptyTiles collect: [:tile | tile position]) includes: self gameInstance bottomLeftCorner).
 
 
 	

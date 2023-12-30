@@ -9,6 +9,6 @@ testMoveRightWithCollisionWithMerge
 	self assert: gameInstance occupiedTilesSize equals: 2.
 	self assert: gameInstance emptyTilesSize equals: self gameInstance gridSize - self gameInstance occupiedTilesSize.
 
-	self assert: ((gameInstance occupiedTiles collect: [ :tile | tile position ]) includes: 4 @ 1).
+	self assert: ((gameInstance occupiedTiles collect: [ :tile | tile position ]) includes: self gameInstance topRightCorner).
 	
-	self assert: (gameInstance occupiedTiles detect: [ :tile | tile position = (4 @ 1) ]) withValue equals: 4.
+	self assert: (gameInstance occupiedTiles detect: [ :tile | tile position = (self gameInstance topRightCorner) ]) withValue equals: 4.
