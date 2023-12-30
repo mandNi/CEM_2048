@@ -7,7 +7,7 @@ testMoveUpWithCollisionWithoutMerge
 	gameInstance moveUp.
 
 	self assert: gameInstance occupiedTilesSize equals: 3.
-	self assert: gameInstance emptyTilesSize equals: 13.
+	self assert: gameInstance emptyTilesSize equals: self gameInstance gridSize - self gameInstance occupiedTilesSize.
 
 	self assert: ((gameInstance occupiedTiles collect: [ :tile | tile position ]) includes: 1 @ 1).
 	self assert: ((gameInstance occupiedTiles collect: [ :tile | tile position ]) includes: 1 @ 2).

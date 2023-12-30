@@ -7,7 +7,7 @@ testMoveDownWithCollisionWithMerge
 	gameInstance moveDown.
 	
 	self assert: gameInstance occupiedTilesSize equals: 2.
-	self assert: gameInstance emptyTilesSize equals: 14.
+	self assert: gameInstance emptyTilesSize equals: ( (self gameInstance gridSize) - gameInstance occupiedTilesSize ).
 	
 	self assert: ((gameInstance occupiedTiles collect: [ :tile | tile position ]) includes: 1 @ 4).
 			
