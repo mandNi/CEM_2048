@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PackageManifest",
+	"category" : "2048Game-Core-Manifest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Manifest2048GameCore",
+	"type" : "normal"
+}

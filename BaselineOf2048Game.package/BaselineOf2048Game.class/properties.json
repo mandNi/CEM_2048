@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BaselineOf",
+	"category" : "BaselineOf2048Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOf2048Game",
+	"type" : "normal"
+}

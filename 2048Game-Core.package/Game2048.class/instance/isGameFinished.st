@@ -1,0 +1,3 @@
+testing
+isGameFinished
+	^ isGameFinished.

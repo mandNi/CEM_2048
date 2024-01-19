@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "NizarMandour 12/8/2023 14:30",
+	"super" : "Object",
+	"category" : "2048Game-Core",
+	"classinstvars" : [
+		"grid"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"linesCount",
+		"columnsCount",
+		"grid",
+		"occupiedTiles",
+		"emptyTiles",
+		"isGameFinished",
+		"isGridFull",
+		"wallTiles",
+		"hasWon"
+	],
+	"name" : "Game2048",
+	"type" : "normal"
+}
