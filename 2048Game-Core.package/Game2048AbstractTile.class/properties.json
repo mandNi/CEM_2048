@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "NizarMandour 12/7/2023 21:53",
+	"super" : "Object",
+	"category" : "2048Game-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"position",
+		"withValue",
+		"gameInstance",
+		"hasNotMovedOrMerged"
+	],
+	"name" : "Game2048AbstractTile",
+	"type" : "normal"
+}

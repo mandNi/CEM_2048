@@ -1,0 +1,3 @@
+accessing
+emptyTilesSize
+	^ emptyTiles size.
